@@ -33,12 +33,11 @@ var johnLennonFacts = function (facts) {
 var iLoveTheBeatles = function (num){
   
   var arr = []
-  var i = 0
   do {
     
     arr[i] = 'I love the Beatles!'
     
-    i++
+    num++
   } while (num < 15)
   return arr
 }
